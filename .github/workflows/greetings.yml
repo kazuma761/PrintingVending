@@ -9,7 +9,7 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-    - uses: actions/first-interaction@v1
+    - uses: actions/fumo-action
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: "New changes that are done repo by  on users' first issue"
